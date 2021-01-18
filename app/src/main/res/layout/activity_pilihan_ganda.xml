@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmateri"
+    tools:context="com.monicatifanyz.cekula.Activity.activity.PilihanGandaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:id="@+id/lineSkor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:layout_gravity="right"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:id="@+id/tvSkor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:layout_gravity="center"
+                android:textSize="22sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lineSoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lineSkor"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvSoal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linePilihanJawaban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lineSoal"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="12dp">
+
+            <RadioGroup
+                android:id="@+id/rgPilihanJawaban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbPilihanJawaban1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="14sp"/>
+
+                <RadioButton
+                    android:id="@+id/rbPilihanJawaban2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="14sp"/>
+
+                <RadioButton
+                    android:id="@+id/rbPilihanJawaban3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="14sp"/>
+
+                <RadioButton
+                    android:id="@+id/rbPilihanJawaban4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="14sp"/>
+
+                <RadioButton
+                    android:id="@+id/rbPilihanJawaban5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="14sp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom|right"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/btnSubmit"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linePilihanJawaban"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_lanjut"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.monicatifanyz.cekula">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.activity.Petun"></activity>
+        <activity android:name=".Activity.activity.Petunjuk2" />
+        <activity android:name=".Activity.activity.MateriDelapanE" />
+        <activity android:name=".Activity.activity.MateriDelapanL" />
+        <activity android:name=".Activity.activity.MateriDelapanEm" />
+        <activity android:name=".Activity.activity.MateriDelapanT" />
+        <activity android:name=".Activity.activity.MateriDelapanD" />
+        <activity android:name=".Activity.activity.MateriDelapanS" />
+        <activity android:name=".Activity.activity.Hasil" />
+        <activity android:name=".Activity.activity.MateriTujuhT" />
+        <activity android:name=".Activity.activity.MateriTujuhD" />
+        <activity android:name=".Activity.activity.MateriEnamE" />
+        <activity android:name=".Activity.activity.MateriEnamT" />
+        <activity android:name=".Activity.activity.MateriEnamD" />
+        <activity android:name=".Activity.activity.MateriLimaDuab" />
+        <activity android:name=".Activity.activity.MateriLimaSeb" />
+        <activity android:name=".Activity.activity.MateriLimaTen" />
+        <activity android:name=".Activity.activity.MateriLimaSe" />
+        <activity android:name=".Activity.activity.MateriLimaDe" />
+        <activity android:name=".Activity.activity.MateriLimaTu" />
+        <activity android:name=".Activity.activity.MateriLimaEn" />
+        <activity android:name=".Activity.activity.MateriLimaL" />
+        <activity android:name=".Activity.activity.MateriLimaE" />
+        <activity android:name=".Activity.activity.MateriLimaT" />
+        <activity android:name=".Activity.activity.MateriLimaD" />
+        <activity android:name=".Activity.activity.MateriEmpatEn" />
+        <activity android:name=".Activity.activity.MateriEmpatE" />
+        <activity android:name=".Activity.activity.MateriEmpatL" />
+        <activity android:name=".Activity.activity.MateriEmpatT" />
+        <activity android:name=".Activity.activity.MateriEmpatD" />
+        <activity android:name=".Activity.activity.MateriTigaT" />
+        <activity android:name=".Activity.activity.MateriTigaD" />
+        <activity android:name=".Activity.activity.ReviewActivity" />
+        <activity android:name=".Activity.activity.HasilSkoring" />
+        <activity android:name=".Activity.activity.PilihanGandaActivity" />
+        <activity android:name=".Activity.activity.PetunjukPGActivity" />
+        <activity android:name=".Activity.activity.IsiDataActivity" />
+        <activity android:name=".Activity.activity.ReferensiActivity" />
+        <activity android:name=".Activity.activity.PetunjukActivity" />
+        <activity android:name=".Activity.activity.PengembangActivity" />
+        <activity android:name=".Activity.activity.MateriDelapan" />
+        <activity android:name=".Activity.activity.MateriTujuh" />
+        <activity android:name=".Activity.activity.MateriEnam" />
+        <activity android:name=".Activity.activity.MateriLima" />
+        <activity android:name=".Activity.activity.MateriEmpat" />
+        <activity android:name=".Activity.activity.MateriTiga" />
+        <activity android:name=".Activity.activity.MateriDua" />
+        <activity android:name=".Activity.activity.MateriSatu" />
+        <activity android:name=".Activity.activity.TPActivity" />
+        <activity android:name=".Activity.activity.KDActivity" />
+        <activity android:name=".Activity.activity.KIActivity" />
+        <activity
+            android:name=".Activity.activity.KompetensiActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.activity.MateriActivity" />
+        <activity android:name=".Activity.activity.LoginActivity" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

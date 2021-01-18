@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmateri"
+    android:orientation="vertical"
+    tools:context="com.monicatifanyz.cekula.Activity.activity.PilihanGandaActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/ivHome"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_home">
+        </ImageView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="28dp"
+            android:layout_marginBottom="45dp"
+            android:layout_marginRight="18dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tvSoal1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/soal1"
+                        android:maxLines="10"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb1"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+
+                    <TextView
+                        android:id="@+id/tvSoal2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal2"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb2"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:id="@+id/tvSoal3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal3"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb3"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal4"
+                        android:layout_width="324dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2dp"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:text="@string/soal4"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb4"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal5"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb5"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal6"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb6"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal7"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb7"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:id="@+id/tvSoal8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal8"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb8"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:id="@+id/tvSoal9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal9"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="a.\tAbjad"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:id="@+id/tvSoal10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal10"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb10"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:id="@+id/tvSoal11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal11"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb11"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal12"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb12"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal13"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb13"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal14"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb14"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal15"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb15"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal16"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb16"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal17"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="d.\tKepegawaian"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal18"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb18"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal19"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="e.\t1000-10.000 arsip "
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal20"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="d.\tWilayah"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal21"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="c.\tTanggal"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal22"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb22"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal23"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="c.\tProvinsi – Kabupaten – Kecamatan"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal24"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jwb24"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/soal25"
+                        android:maxLines="10"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawaban Benar"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvJawaban25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="a.\tPokok masalah"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="50dp"
+                        android:text="-"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_gravity="right"
+                        android:textSize="22sp"/>
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

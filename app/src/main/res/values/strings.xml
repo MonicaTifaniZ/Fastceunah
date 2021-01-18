@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">FAST</string>
+    <string name="tujuan_pembelajaran">TUJUAN \nPEMBELAJARAN</string>
+    <string name="keterangan">Selamat!\n
+    Nilai kamu telah memenuhi KKM (70)</string>
+    <string name="ket_tidak_lulus">Mohon maaf Nilai kamu belum memenuhi KKM (70)</string>
+    <string name="kompetensi_dasar">KOMPETENSI \nDASAR</string>
+    <string name="kompetensi_inti">KOMPETENSI \nINTI</string>
+    <string name="soal1">1.\tBeberapa faktor yang harus diperhatikan dalam memilih jenis sitem kearsipan adalah…"</string>
+    <string name="jwb1">c.	Cepat, fleksibel, mudah</string>
+    <string name="soal2">2.\tSistem penyimpanan arsip dengan mengurtkan secara abjad yaitu A sampai Z dengan berpedoman aturan mengindeks merupakan pengertian kearsipan sistem…</string>
+    <string name="jwb2">c.\tAbjad</string>
+    <string name="soal3">3.\t“Sistem kearsipan yang digunakan harus sesuai dengan jenis, situasi, kondisi dan kebutuhan dari organisasi.” Penjelasan tersebut merupakan maksud dari salah satu faktor yang harus diperhatikan dalam pemilihan sistem kearsipan. Faktor tersebut adalah…</string>
+    <string name="jwb3">e.\tTepat</string>
+    <string name="soal4">4.\tYang dimaksud dengan “sistem” adalah…</string>
+    <string name="jwb4">a.\tTata cara/langkah-langkah</string>
+    <string name="soal5">5.\tSuatu perusahaan memiliki kantor cabang di setiap kota di Jawa Timur. Untuk mempermudah dalam proses pengarsipan, perusahaan tersebut ingin mengarsipkan surat yang ada berdasarkan kantor cabangnya. Sehingga kantor pusat dari perusahaan tersebut sebaiknya menggunakan kearsipan sistem…</string>
+    <string name="jwb5">e.\tWilayah</string>
+    <string name="soal6">6.\t“Langkah-langkah pengelolaan warkat dengan berpedoman pada salah satu jenis sistem penyimpanan yang dipilih. Bertujuan agar warkat tersebut tersimpan secara rapi, sesuai dengan organisasi dan mudah ditemukan apabila dibutuhkan dengan kondisi baik.” Kalimat diatas merupakan pengertian dari…</string>
+    <string name="jwb6">a.\tPengertian sistem kearsipan</string>
+    <string name="soal7">7.\tPT Sejahtera merupakan perusahaan yang memiliki banyak kantor cabang diberbagai daerah. Oleh sebab itu, perusahaan tersebut menggunakan penyimpanan arsip sistem wilayah karena dirasa dapat memudahkan apabila mencari surat yang diketahui asal wilayahnya saja. Pernyataan tersebut merupakan salah satu ….. kearsipan sistem wilayah.</string>
+    <string name="jwb7">a.\tKelebihan</string>
+    <string name="soal8">8.\tBerikut yang termasuk jenis-jenis sistem kearsipan, kecuali….</string>
+    <string name="jwb8">d.\tKearsipan sistem objek</string>
+    <string name="soal9">9.\tPT Sandang Ayu menyimpan arsip-arsip dengan menggunakan nama organisasi dan nama orang yang diindeks sebagai pedoman mengatur penyimpanan arsipnya. PT Sandang ayu memilih kearsipan sistem….</string>
+    <string name="soal10">10.\t“Sistem kearsipan yang digunakan dapat digunakan pada tiap unit organisassi serta mengikuti perkembangan dari organisasi.” Penjelasan tersebut merupakan maksud dari salah satu faktor yang harus diperhatikan dalam pemilihan sistem kearsipan. Faktor tersebut adalah…</string>
+    <string name="jwb10">c.\tFleksibel</string>
+    <string name="soal11">11. Perhatikan hal-hal berikut\n1) Proses penyimpanan dapat dilakukan dengan cepat. \n2) Biaya pelaksanaan murah. \n3) Penyortiran hanya dilakukan satu kali. \n4) Sederhana dan mudah dipahami. \n5) Tingkat keamanan surat rendah. \nHal-hal diatas yang merupakan kelebihan dari kearsipan sistem abjad adalah…</string>
+    <string name="jwb11">e.\n1, 2, 3, 4.</string>
+    <string name="soal12">12.\tSebuah kantor menggunakan sistem tanggal dalam penyimpanan arsipnya. Jika satu filling cabinet yang terdiri atas 4 laci digunakan untuk menyimpan arsip 4 tahun terakhir, maka setiap laci dapat diberi nama…</string>
+    <string name="jwb12">b.\tTahun</string>
+    <string name="soal13">13.\tSistem penyimpanan arsip yang berdasarkan pada tanggal, bulan, tahun. Kode penyimpanan mengambil dari tanggal, bulan, dan tahun surat tersebut dibuat merupakan pengertian kearsipan sistem…</string>
+    <string name="jwb13">b.\tTanggal</string>
+    <string name="soal14">14.\tSebuah surat yang diklasifikasikan dengan nomor Dewey memiliki kode 225.2. Maka penyimpanan surat tersebut adalah….</string>
+    <string name="jwb14">b.\tDi dalam laci berkode 200, di belakang guide berkode 220 di dalam hanging folder berkode 225, surat urutan ke-3</string>
+    <string name="soal15">15.\tSalah satu ciri utama dalam kearsipan sistem tanggal adalah…</string>
+    <string name="jwb15">c.\tMenggunakan tanggal, bulan dan tahun surat sebagai pedoman penyimpanan.</string>
+    <string name="soal16">16.\tPerusahaan yang menggunakan kearsipan sistem subjek akan menentukan pokok masalah yang digunakan sebagai pedoman penyimpanan. Kelebihan menggunakan kearsipan sistem subjek adalah….</string>
+    <string name="jwb16">a.\tDapat memperluas pokok masalah sesuai dengan kebutuhan.</string>
+    <string name="soal17">17.\tDalam suatu arsip terdapat guide dengan kode kesejahteraan, cuti, dan pensiun. Maka kode laci yang paling benar adalah…</string>
+    <string name="soal18">18.\tSistem penyimpanan arsip berdasarkan kelompok masalah yang masing-masing masalah tersebut diberi nomor tertentu dan sering disebut sistem tidak langsung atau indirect filling system merupakan pengertian kearsipan sistem…</string>
+    <string name="jwb18">c.\tNomor</string>
+    <string name="soal19">19.\tSistem nomor seri dapat diterapkan apabila jumlah arsip yang disimpan berkisar antara…</string>
+    <string name="soal20">20.\tPenyimpanan arsip yang dilakukan berdasarkan wilayah atau alamat surat berasal merupakan pengertian dari kearsipan sistem…</string>
+    <string name="m1">Peralatan &amp; Perlengkapan Kearsipan</string>
+    <string name="m2">Penyimpanan Arsip Sistem \nAbjad</string>
+    <string name="m3">Penyimpanan Arsip Sistem \nSubjek</string>
+    <string name="m4">Penyimpanan Arsip Sistem \nNomor</string>
+    <string name="m5">Penyimpanan Arsip Sistem \nTanggal</string>
+    <string name="m6">Penyimpanan Arsip Sistem \nWilayah</string>
+    <string name="soal21">21.\tCV. Gembira Bersama mengatur penyimpanan arsip yang mereka miliki dengan menggunakan Tahun sebagai pedoman. Sistem kearsipan yang digunakan oleh CV. Gembira Bersama adalah …</string>
+    <string name="soal22">22.\tPT Sejahtera menggunakan kearsipan sistem abjad. Jika terdapat surat masuk dari PT Mulya Agung yang akan diarsipkan, maka surat tersebut akan disimpan pada …</string>
+    <string name="jwb22">c.\tDi belakang guide M dalam folder Mu</string>
+    <string name="soal23">23.\tContoh urutan klasifikasi sistem kearsipan wilayah adalah …</string>
+    <string name="soal24">24.\tSalah satu kelemahan menggunakan kearsipan sistem nomor adalah …</string>
+    <string name="jwb24">d.\tBiaya dan ruangan yang digunakan lumayan banyak</string>
+    <string name="soal25">25.\tSebuah perusahaan menggunakan kearsipan sistem subjek, sehingga pedoman yang digunakan dalam melakukan pengaturan penyimpanan arsip adalah …</string>
+
+
+</resources>
